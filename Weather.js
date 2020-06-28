@@ -27,7 +27,7 @@ const weatherOptions = {
         iconName: "weather-snowy",
         gradient: ["#7DE2FC", "#B9B6E5"],
         title: "눈",
-        subtitle: "Do you want to build a snowman~~~"
+        subtitle: "눈 조심!"
     },    
     Clear: {
         iconName: "weather-sunny",  
@@ -41,23 +41,17 @@ const weatherOptions = {
         title: "구름",
         subtitle: "하늘이 맑지 않군요!"
     },
-    Mist: {
-        iconName: "weather-hail",
-        gradient: ["#4DA0B0", "#D39D38"],
-        title: "Mist!",
-        subtitle: "It's like you have no glasses on."
-    },
     Dust: {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
-        title: "Dusty",
-        subtitle: "Thanks a lot China 🖕🏻"
+        title: "미세먼지",
+        subtitle: "마스크 필수!"
     },
     Haze: {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
-        title: "Haze",
-        subtitle: "Just don't go outside."
+        title: "안개",
+        subtitle: "운전 길 조심하세요!"
     }
 };
 
